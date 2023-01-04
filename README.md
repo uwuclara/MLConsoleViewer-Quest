@@ -1,5 +1,5 @@
 # MLConsoleViewer
-Currently works on LemonLoader v0.5.7+. Quest only for now.
+Currently works on LemonLoader v0.5.7+. This is Quest only. For PC [here](https://github.com/uwuclara/MLConsoleViewer-PC).
 
 A standalone mod that adds a tab to your quick menu that has a simple copy of your console!
 
