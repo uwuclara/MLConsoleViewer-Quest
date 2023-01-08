@@ -10,7 +10,7 @@ namespace ReMod.Core.Managers
         public IButtonPage TargetMenu { get; }
         public IButtonPage LaunchPad { get; }
 
-        public UiManager(string menuName, Sprite menuSprite, bool createTargetMenu = true, bool createMainMenu = true)
+        public UiManager(string menuName, Sprite menuSprite, bool createTargetMenu = true)
         {
             MainMenu = new ReMenuPage(menuName, true);
             ReTabButton.Create(menuName, $"Open the {menuName} menu.", menuName, menuSprite);
@@ -20,11 +20,7 @@ namespace ReMod.Core.Managers
                 var localMenu = new ReCategoryPage(QuickMenuEx.SelectedUserLocal.transform);
                 TargetMenu = localMenu.AddCategory($"{menuName}");
             }
-            if (createMainMenu)
-            {
-                var localMenu = new ReCategoryPage(QuickMenuEx.DashboardMenu.transform);
-                LaunchPad = localMenu.AddCategory($"{menuName}");
-            }
+           
         }
     }
 }
