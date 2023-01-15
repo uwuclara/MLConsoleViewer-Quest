@@ -20,7 +20,7 @@ public static class BuildShit
 {
     public const string Name = "MLConsoleViewer";
     public const string Author = "Neeko & Lunar (Asset) - Quest Port. Penny & Davi - Original. OG - Benacle.";
-    public const string Version = "2.0.0";
+    public const string Version = "2.0.1";
     public const string DownloadLink = "https://github.com/PennyBunny/VRCMods/";
     public const string Description = "A standalone mod that adds a tab to your quick menu that has a simple copy of your console!";
 }
